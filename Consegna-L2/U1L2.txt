@@ -9,9 +9,11 @@ CIDR 12
 
 10000000.00000000.00000000.00000000
 
+
+
 ○ IP Network:  128.0.0.0
 ○ IP Gateway ‘convenzionale’: 128.0.0.1
-○ IP Broadcast:  128.15.255.255
+○ IP Broadcast:  128.15.255.255   (255-240=16)(0min a 15max)
 ○ Ottetti per gli host: 2.5 (i primi 12 bit sono per la network, i restanti 20 per gli host) 
 ○ Ottetti per la network: 1,5 
 -------------------------------------------------------
@@ -28,7 +30,7 @@ CIDR 24
 
 ○ IP Network:  200.1.2.0
 ○ IP Gateway ‘convenzionale’: 200.1.2.1
-○ IP Broadcast:  200.1.2.255
+○ IP Broadcast:  200.1.2.255 (255-255=0)(0min a 255max)
 ○ Ottetti per gli host: 1 (i primi 24 bit sono per la network, i restanti 8 per gli host) 
 ○ Ottetti per la network: 3 
 -------------------------------------------------------
@@ -45,7 +47,7 @@ CIDR 22
 
 ○ IP Network:  192.192.0.0
 ○ IP Gateway ‘convenzionale’: 192.192.0.1
-○ IP Broadcast:  192.192.3.255
+○ IP Broadcast:  192.192.3.255  (255-252=3)(0min a 3max)
 ○ Ottetti per gli host: 2.5 (i primi 22 bit sono per la network, i restanti 10 per gli host) 
 ○ Ottetti per la network: 2.5 
 -------------------------------------------------------
@@ -62,7 +64,7 @@ CIDR 9
 
 ○ IP Network:  126.0.0.0
 ○ IP Gateway ‘convenzionale’: 126.0.0.1
-○ IP Broadcast:  126.127.255.255
+○ IP Broadcast:  126.127.255.255  (255-128=127)(0min/127max)
 ○ Ottetti per gli host: 2.875  (i primi 9 bit sono per la network, i restanti 23 per gli host) 
 ○ Ottetti per la network: 3 
 -------------------------------------------------------
@@ -79,7 +81,7 @@ CIDR 24
 
 ○ IP Network:  200.1.9.0
 ○ IP Gateway ‘convenzionale’:  200.1.9.1
-○ IP Broadcast:  200.1.9.255
+○ IP Broadcast:  200.1.9.255  (255-255=0) (0min/255max)
 ○ Ottetti per gli host: 1 (i primi 24 bit sono per la network, i restanti 8 per gli host) 
 ○ Ottetti per la network: 3 
 -------------------------------------------------------
@@ -96,6 +98,6 @@ CIDR 16
 
 ○ IP Network:  172.16.0.0
 ○ IP Gateway ‘convenzionale’:  172.16.0.1
-○ IP Broadcast:  172.16.255.255
+○ IP Broadcast:  172.16.255.255  (255-255=0)(0min/255max)
 ○ Ottetti per gli host: 2 (i primi 16 bit sono per la network, i restanti 16 per gli host) 
 ○ Ottetti per la network: 2 
